@@ -1,9 +1,6 @@
-# python code to compute points on a disk
+# python code to compute points in a disk
 # uses method of steepest decent
-# draws the points on the disk and plots the energy against iteration number
-
-"""once all points have reached a small amplitude, only move one at a time"""
-
+# draws the points on the disk 
 
 import numpy as np
 import matplotlib.pyplot as plt
