@@ -1,9 +1,6 @@
-#
 # python code to compute points on a sphere
-# uses a simple Monte Carlo method 
-# draws the points on the sphere and plots the energy against iteration number
-
-"""STOPPING CRITERIA: ONCE REACHES LITERATURE VALUE"""
+# uses a simple Monte Carlo method and method of steepest descent
+# plots the time taken for both methods to relax the points
 
 import numpy as np
 import matplotlib.pyplot as plt
