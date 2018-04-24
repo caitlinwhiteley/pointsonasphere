@@ -1,15 +1,10 @@
-#
-# python code to compute points on a sphere
-# uses a simple Monte Carlo method 
-# draws the points on the sphere and plots the energy against iteration number
-#
+# python code to compute points on a sphere using a genetic algorithm
+# uses a method of steepest descent
 
 import numpy as np
 #import matplotlib.pyplot as plt
 import random
 #'from mpl_toolkits.mplot3d import Axes3D
-
-"""c symmetry doesnt work for 3 unique eigenvalues"""
 
 
 # project one or all points to the sphere
