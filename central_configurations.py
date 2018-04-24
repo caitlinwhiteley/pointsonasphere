@@ -1,8 +1,6 @@
-# python code to compute points on a sphere
-# uses a simple Monte Carlo method 
-# draws the points on the sphere and plots the energy against iteration number
-
-"""Make initial step size proportional to N?"""
+# python code to compute points in a ball
+# uses a method of steepest descent
+# plots the points in a ball, with the points coloured according to their radius
 
 import numpy as np
 import matplotlib.pyplot as plt
