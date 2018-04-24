@@ -1,6 +1,5 @@
-# python code to compute points on a sphere
-# uses a simple Monte Carlo method 
-# draws the points on the sphere and plots the energy against iteration number
+# python code to compute points in a ball, using sphere packing representation
+# uses a method of steepest descent
 
 
 import numpy as np
