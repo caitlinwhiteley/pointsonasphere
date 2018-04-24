@@ -1,9 +1,7 @@
-# python code to compute points on a sphere
-# uses a simple Monte Carlo method 
-# draws the points on the sphere and plots the energy against iteration number
-
-
-"""N=4 SOMETIMES DOESNT WORK- HIGHEST ENERGY VALUE NOT CORRECT. Check final energies"""
+# python code to compute points in a disc using a genetic algorithm
+# uses a method of steepest descent
+# does this for N=17,30,38,56,69
+# these points are saved to a text file, which I then use in my code for points in a disc
 
 
 import numpy as np
