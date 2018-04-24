@@ -1,6 +1,6 @@
 # python code to compute symmetries of points on a sphere
 # uses a method of steepest descent
-# plots the points on a sphere
+# plots the points on a sphere, with the axis of rotational symmetry pointing out the page when possible
 
 import numpy as np
 import matplotlib.pyplot as plt
